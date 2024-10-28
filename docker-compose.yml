@@ -1,0 +1,19 @@
+name: InstrumentsService
+
+services:
+  instruments-service:
+    build:
+      context: .
+      dockerfile: src/InstrumentsService.Api/Dockerfile
+    ports:
+      - 8080:8080
+      - 8081:8081
+
+    image: instruments.service
+    container_name: instruments.service
+      
+networks:
+  bridge_network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "false"

@@ -1,6 +1,6 @@
 @InstrumentsService_HostAddress = http://localhost:5132
 
-GET {{InstrumentsService_HostAddress}}/weatherforecast/
+GET {{InstrumentsService_HostAddress}}/api/v1/FinancialInstrument/
 Accept: application/json
 
 ###

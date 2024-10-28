@@ -25,12 +25,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D74548B-AC96-4AA2-8214-091AF0F5E992}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wsclient", "wsclient", "{4D18E7E8-128D-43BA-9EAD-466D382197D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentsService.WS.Client", "wsclient\InstrumentsService.WS.Client\InstrumentsService.WS.Client.csproj", "{A5CA6C76-495E-4773-BA19-483A23E69183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstrumentsService.WS.Client", "wsclient\InstrumentsService.WS.Client\InstrumentsService.WS.Client.csproj", "{A5CA6C76-495E-4773-BA19-483A23E69183}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
