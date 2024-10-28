@@ -28,7 +28,7 @@ Possible TODO:
  
 ## Getting Started
 - Make InstrumentsService.Api as a Startup project
-- Run
+- Run (Or just navigate to the InstrumentsService.Api folder and run "dotnet run" in the console)
 - Open the Swagger UI in the browser: http://localhost:5132/swagger/index.html and check the API documentation, try to get the instruments, providers and prices
 - Go to the WebSocket client project InstrumentsService.WS.Client folder and run "dotnet run" in the console to subscribe gettings instruments details, 
   you would see the feed from the Tiingo as a default data provider
