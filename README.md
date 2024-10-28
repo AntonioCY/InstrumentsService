@@ -43,5 +43,18 @@ The service is implemented as a REST API that has a Swagger UI for the API docum
 In addition to that, the service has a versioning mechanism for the API.
 Binance data provider is also implemented, but it is not used in the current version of the service cause require detailed testing. 
 As an improvement, it could be added as a separate part of the ws subscription mechanism.
+Also, in the current solution it is used pre-defined available symbols "EURUSD", "USDJPY", "BTCUSD", as an improvement there could be retrieved the full list of available symbols from the data provider.
 
 PS: The service is not intended to be used in the production environment, it is just a test solution.
+
+Instruments API endpoint:
+![instruments_api_endpoint](https://github.com/user-attachments/assets/2f7f9650-3f50-4f1b-8633-fc9512c96efa)
+
+Providers API endpoint:
+![providers_api_endpoint](https://github.com/user-attachments/assets/0c56486d-bd21-41a4-b337-497f7dfeb551)
+
+Instrument price API endpoint:
+![instrument_price_api_endpoint](https://github.com/user-attachments/assets/9b9147a8-5552-4ffe-b816-0c1b5a0522ca)
+
+Instruments prices web sockets feed:
+![intruments_prices_ws_client_feed](https://github.com/user-attachments/assets/d6c8624c-6d28-4824-a467-01c342d94ab8)
